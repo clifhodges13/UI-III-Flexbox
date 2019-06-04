@@ -64,3 +64,194 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* ////////////////////// */
+/* Home Page */
+/* ////////////////////// */
+
+
+/* General */
+
+
+body {
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+
+/* Navigation */
+
+nav {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 100vw;
+	height: auto;
+	background: linear-gradient(to bottom left, lightgreen, lightblue);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+nav a {
+	align-self: center;
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	color: #666;
+	padding: .5rem 1rem;
+	transition: all .4s;
+}
+
+nav a:first-child {
+	margin-left: 5rem;
+}
+
+
+nav a:hover {
+	border-bottom: 27px solid white;
+	border-top: 27px solid white;
+	color: white;
+}
+
+nav a:last-child {
+	border-bottom: none;
+	border-top: none;
+	padding: none;
+}
+
+.logo {
+	margin: 1rem 5rem;
+	align-self: flex-end;
+}
+
+
+/* Heading */
+
+.heading {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 2rem 0;
+	margin-top: 6rem;
+}
+
+.heading__cta {
+	width: 50%;
+	margin: 0 auto;
+	padding-bottom: 2rem;
+	font-size: 80px;
+	text-align: center;
+}
+
+.heading__cta-btn {
+	font-size: 1.2rem;
+	color: #666;
+	background: transparent;
+	border: 1px solid black;
+	padding: .25rem 2.25rem;
+	transition: all .3s;
+}
+
+.heading__cta-btn:hover {
+	border-radius: 10px;
+	background: lightgreen;
+	color: black;
+}
+
+.heading img {
+	display: inline-block;
+	width: auto;
+}
+
+
+/* Main content */
+
+main {
+	width: 100%;
+}
+
+.feature-box__container {
+	display: flex;
+}
+
+.feature-box {
+	padding: 2rem .5rem 2rem 0;
+}
+
+.box-a {
+	width: 49%;
+}
+
+.box-b {
+	width: 33%;
+}
+
+.middle-img {
+	width: 100%;
+	margin: 2rem 0;
+}
+
+
+/* Footer */
+
+footer {
+	width: 100%;
+	margin-bottom: 4rem;
+}
+
+footer address {
+	margin: 2rem 0;
+}
+
+.copyright {
+	text-align: center;
+}
+
+/* ////////////////////// */
+/* Services Page */
+/* ////////////////////// */
+
+/* Header */
+
+.services-header-img {
+	margin: 80px 0;
+}
+
+/* Main Content */
+
+.main-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.service-box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	width: 47%;
+	height: auto;
+	padding: 2rem;
+	margin: 1.75rem 0;
+	border: 1px solid black;
+	background: #eee;
+}
+
+/* Footer */
+
+footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.facts-container {
+	width: 50%;
+}
+
+.copyright-services {
+	margin: 5rem auto;
+}
