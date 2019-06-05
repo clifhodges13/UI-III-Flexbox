@@ -78,6 +78,10 @@ body {
 	margin: 0 auto;
 }
 
+hr {
+	margin: 2rem 0;
+}
+
 
 /* Navigation */
 
@@ -240,6 +244,18 @@ footer address {
 	background: #eee;
 }
 
+.service-box p {
+	margin: 1rem 0;
+}
+
+.service-box button {
+	width: 40%;
+	background: white;
+	padding: .5rem 1rem;
+	border-radius: .5rem;
+}
+
+
 /* Footer */
 
 footer {
@@ -249,7 +265,17 @@ footer {
 }
 
 .facts-container {
-	width: 50%;
+	width: 45%;
+}
+
+.facts-container ul {
+	list-style: initial;
+	list-style-position: inside;
+	margin: 2rem 0;
+}
+
+.facts-container li {
+	margin: 1rem 0;
 }
 
 .copyright-services {
