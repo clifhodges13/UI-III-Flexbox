@@ -241,7 +241,7 @@ footer address {
 	padding: 2rem;
 	margin: 1.75rem 0;
 	border: 1px solid black;
-	background: #eee;
+	background: rgb(225, 231, 235);
 }
 
 .service-box p {
@@ -252,6 +252,7 @@ footer address {
 	width: 40%;
 	background: white;
 	padding: .5rem 1rem;
+	border: 1px solid black;
 	border-radius: .5rem;
 }
 
